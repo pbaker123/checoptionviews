@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option Views</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="tabsContainer">
+      <div class="tab deviceManager">
+        DeviceManager Options
+      </div>
+      <div class="tab miniLane">
+        Mini Lane Options
+      </div>
+      <div class="tab integration">
+        Integration Options
+      </div>
+      <div class="tab testing">
+        Testing Options
+      </div>
+      <div class="tab store">
+        Store Options
+      </div>
+      <div class="tab security">
+        Security Options
+      </div>
+      <div class="tab terminal">
+        Terminal Options
+      </div>
+      <div class="tab corporate">
+        Corporate Options
+      </div>
+    </div>
+    <div class="optionListContainer">
+        <div class="deviceManagerOptionList">
+          <p>MQTT Cash ClientId</p>
+          <p>MQTT Cash Publish Topic</p>
+          <p>MQTT Cash Subscribe Topic</p>
+          <p>MQTT Comm IPAddress</p>
+          <p>MQTT Comm Port</p>
+          <p>MQTT Protocol</p>
+        </div>
+        <div class="miniLaneOptionList">
+          <p>'Normal' Items NIB audio repeat count</p>
+          <p>1st 'Normal' Items Not In Bag Audio Timer</p>
+          <p>1st Light Items Not In Bag Audio Timer</p>
+          <p>Not In Bag Audio Timer for New Items</p>
+          <p>1st Transport Optional Light Items Not In Bag Audio Timer</p>
+          <p>2nd 'Normal' Items Not In Bag Audio Timer</p>
+          <p>2nd Light Items Not In Bag Audio Timer</p>
+          <p>2nd Not In Bag Audio Timer for New Items</p>
+          <p>2nd Transport Optional Light Items Not In Bag Audio Timer</p>
+          <p>Additonal Validation Time for 'Normal' Items</p>
+          <p>Additional Validation Time for Light Items</p>
+          <p>Additonal Validation Time for Transport Optional</p>
+          <p>Additonal validation time for New Items</p>
+          <p>Allow Bag Removal</p>
+          <p>Allow Fractional Quantity</p>
+          <p>Allow Mini Lane Skip Bagging</p>
+          <p>Allow SA Override During Invalid Security</p>
+          <p>Alternate Variable Weight Tolerance</p>
+          <p>Auto Return to Item Entry when scanned after Finish and Pay</p>
+          <p>Bag Removed Security Count</p>
+          <p>Bag Replaced Security Count</p>
+          <p>Carousel Zero Weight Tolerance</p>
+          <p>Create Alternate Records From SA Override</p>
+          <p>Default Security Mode</p>
+          <p>Early Bag Removal Correction Timeout</p>
+          <p>Early Bag Removal Forgiveness Threshold</p>
+          <p>Early Bag Removal Security Count</p>
+          <p>Enable Scale logging</p>
+          <p>End Transaction Security Threshold</p>
+          <p>Extra Item Detected Security Count</p>
+          <p>Extra Item Removal Timeout</p>
+          <p>Extra Item Removed Security Count</p>
+          <p>In Transaction Security Threshold</p>
+          <p>Invalid Weight Security Count</p>
+          <p>Item Security After Finish and Pay</p>
+          <p>Item Security Not Checked Security Count</p>
+          <p>Lane Light Delay for Remove all Items Display</p>
+          <p>Light Items NIB audio repeat count</p>
+          <p>Max Scale Weight</p>
+          <p>Maximum Weight Warning Percentage</p>
+          <p>Maximum Weight for Light Items</p>
+          <p>Maximum negative weight for Auto Zero Weight</p>
+          <p>New Items NIB audio repeat count</p>
+          <p>POS item aborted Security Count</p>
+          <p>Processing Time for Passaround Items</p>
+          <p>SA Intervention Before ReceiptPrint</p>
+          <p>Scale Negative Security Count</p>
+          <p>Scale Not Zero Security Count</p>
+          <p>Seconds to wait for Auto Zero Weight</p>
+          <p>Skip Bagging Security Count</p>
+          <p>Transport Optonal Light Items NIB audio repeat count</p>
+          <p>Variable Weight Tolerance</p>
+          <p>Weight-Required Tolerance</p>
+          <p>Wrong Item Corrected Security Count</p>
+          <p>Wrong Item Correction Timeout</p>
+          <p>Wrong Item Detected Security Count</p>
+          <p>Zero Weight Tolerance</p>
+        </div>
+        <div class="integrationOptionList">
+          <p>0 Total Action</p>
+          <p>Allow Cash Out For Negative Transaction</p>
+          <p>Bypass Language Select Screen</p>
+          <p>CashOut Threshold</p>
+          <p>Confirm close lane</p>
+          <p>Default mode for collecting coupons</p>
+          <p>Define Shopper Assistants Via ACE Operators</p>
+          <p>Disable Finish And Pay if Amount Due < 0</p>
+          <p>Do paper bags have a barcode?</p>
+          <p>E-Receipt Header Text Display</p>
+          <p>E-Receipt Line Item Description Length</p>
+          <p>E-Receipt Line Item Prefix Length</p>
+          <p>EAN 13 Coupon Data Length</p>
+          <p>EAN 13 Data Length</p>
+          <p>Enable Cash Devices on Tender Screen</p>
+          <p>Enable Closed Screen Date and Time Display</p>
+          <p>Enable Currency Units Audio</p>
+          <p>Enable Debug On CHEC RMA Systems Management Classes</p>
+          <p>Enable EFTPreSwipe Feature</p>
+          <p>Enable EuropeanWeightsAndMeasures</p>
+          <p>Enable ItemRejectTracking Feature</p>
+          <p>Enable NoReceiptOptionOnTenderScreen</p>
+          <p>Enable POS item sync</p>
+          <p>Enable Paper Bag Feature</p>
+          <p>Enable PriceEmbeddedEANBarcodeSupport Feature</p>
+          <p>Enable PriceEmbeddedUPCASupport Feature</p>
+          <p>Enable PriceOverrideSupport Feature</p>
+          <p>Enable Proportional Font on E-Receipt</p>
+          <p>Enable Receipt Grey Bar</p>
+          <p>Enable Shopper's Own Bag Feature</p>
+          <p>Enable VoidAgeRestrictedItemsOnFailedAge Feature</p>
+          <p>Enable WeightEmbeddedEAN13Support Feature</p>
+          <p>Format expected for dates</p>
+          <p>Frequency for updating Shopper Assistants ACE Operators lookup</p>
+          <p>Frequency for updating Shopper Assistants Via ACE Operators</p>
+          <p>GS1 Item Data Length</p>
+          <p>Is there a charge for paper bags?</p>
+          <p>Itemized E-Receipt on Tender Screen</p>
+          <p>Java Device Port List</p>
+          <p>JavaPos Check for enable scanner after hardware reset</p>
+          <p>JavaPos Enable Additional Logging</p>
+          <p>JavaPos Enable Power Management</p>
+          <p>LED Zones for SA Help Needed</p>
+          <p>Large Item Button</p>
+          <p>Maximum Cash Accounting Entries</p>
+          <p>Not On Scale Audio Timer for Paper Bag</p>
+          <p>POS switch back delay ( Milliseconds )</p>
+          <p>Paper Bag PLU</p>
+          <p>Paper Bag Screen Timeout</p>
+          <p>Paper Bags Stored on scale</p>
+          <p>Prompt for Paper Bag At Start of Transaction</p>
+          <p>Prompt for Price Override Reason code</p>
+          <p>Prompt for weight on security scale as a paper bag at transaction start</p>
+          <p>Prompt for weight on security scale as an eco bag at transaction start</p>
+          <p>Save Checksum in Security DB</p>
+          <p>Shopper's Own Bag Screen Timeout</p>
+          <p>Truncate Code 128 Barcodes</p>
+          <p>Volume Options for Shoppers</p>
+        </div>
+        <div class="testingOptionList">
+          <p>Auto Retry Bill Dispense on Error</p>
+          <p>Capture All Security Module Port Data</p>
+          <p>Cash Simulator for tendering</p>
+          <p>Coin Acceptor Device class</p>
+          <p>Coin Acceptor Port</p>
+          <p>Coin Dispenser Device class</p>
+          <p>Coin Dispenser Port</p>
+          <p>Coin Handler Port</p>
+          <p>Currency (Hardware and Symbol)</p>
+          <p>Diagnostics application log level</p>
+          <p>Disable Availability Logging</p>
+          <p>Disable Event Logging</p>
+          <p>Disable Flashing of Security Modules</p>
+          <p>Disable Force On Top</p>
+          <p>Disable Violation Counts on Security Monitor</p>
+          <p>Enable Additional Item Handler data in extracts</p>
+          <p>Enable Additional Item Handler data in lane logs</p>
+          <p>Enable AudioExerciser Feature</p>
+          <p>Enable CashAutomationTesting Feature</p>
+          <p>EnableCreditAutomationTestingSupport Feature</p>
+          <p>Enable Debug Capture</p>
+          <p>Enable Debug On CHEC RMA Systems Management Classes</p>
+          <p>Enable Debug Security Monitor Data</p>
+          <p>Enable DumpMergedStateTables Feature</p>
+          <p>Enable KioskHardwareSupport Feature</p>
+          <p>Enable Simulate Customer callback on Final GetTotalsRequest</p>
+          <p>Enable Simulate Multiple Callbacks to GetTotalsRequest</p>
+          <p>Enable Simulate Slow POS Add Item procesisng</p>
+          <p>Enable Simulated Environment</p>
+          <p>Enable StateTableDebugging Feature</p>
+          <p>Enable Systems Management JMX Interface</p>
+          <p>Enable device data capture</p>
+          <p>EnableExternalDevicesSupport</p>
+          <p>EnableSimulatedHardwareSupport</p>
+          <p>Force Enable of detailed tracing for Serial Security Scale Interfaces.</p>
+          <p>Force Enable of detailed tracing for Telequip Devices.</p>
+          <p>Generate State Scenario Tracing</p>
+          <p>Guidance Lights Port</p>
+          <p>Hide Mouse Cursor</p>
+          <p>JavaPos Check for enable scanner afer hardware reset</p>
+          <p>JavaPos Enable Additional Logging</p>
+          <p>JavaPos Enable Power Management</p>
+          <p>Log JMX Events</p>
+          <p>Log State Action</p>
+          <p>Measurement system</p>
+          <p>Note Acceptor Device class</p>
+          <p>Note Acceptor Port</p>
+          <p>Note Dispenser Device class</p>
+          <p>Note Dispenser Port</p>
+          <p>Note Handler Port Number</p>
+          <p>Printerless Operation</p>
+          <p>Security Module availability</p>
+          <p>Security Scale 1 Port</p>
+          <p>Security Scale 2 Port</p>
+          <p>SegFault Testing</p>
+          <p>Serial Scanner Scale Auto Extract on Restart Connection</p>
+          <p>Serial Scanner Scale Detailed Tracking</p>
+          <p>Serial Scaner Scale Minimum write delay</p>
+          <p>Simulate Application Crash</p>
+          <p>Simulate Application Crash Setting</p>
+          <p>Simulate Coupon Box</p>
+          <p>Simulate Item Handler Devices (Lights, Proximity Sensor)</p>
+          <p>Simulated Security Responses</p>
+          <p>Supress Repetitive Data on Trace</p>
+          <p>System Table Validation</p>
+          <p>Take Auto Extract on Bill Dispense Error</p>
+          <p>Thread Yield Option</p>
+          <p>Trace Cash Machine Messages</p>
+          <p>Turn on Yellow Security Light when skipping security</p>
+        </div>
+        <div class="storeOptionList">
+          <p>Activate Mobile Terminal support at the lane</p>
+          <p>Activate gift receipt feature</p>
+          <p>Activate gift receipt tender button</p>
+          <p>Allow Weight Required Items Without Produce Scale</p>
+          <p>Alternate Configuration File or Folder for the Note Recycler</p>
+          <p>Cash Back Definition</p>
+          <p>Collect core dump files</p>
+          <p>Coupon Restrictions - Coupon Total Limit for Small Orders</p>
+          <p>Coupon Restrictions - Coupon Total Percentage Limit</p>
+          <p>Coupon Restrictions - Duplicate Coupon Limit</p>
+          <p>Coupon Restrictions - Single Coupon Value Limit</p>
+          <p>Coupon Restrictions - Small Order Threshold</p>
+          <p>Currency and Numeric Format</p>
+          <p>Decimal Length used for JavaPos Scale</p>
+          <p>Default Audio Level</p>
+          <p>Default Shopper Language</p>
+          <p>Department List</p>
+          <p>Display Violation Counts on Security Monitor</p>
+          <p>Duplicate PLU Code Limit for Non-Weighed Items</p>
+          <p>Duplicate PLU Code Limit for Weighed Items</p>
+          <p>Enable CouponRestrictions Feature</p>
+          <p>Enable Debug On CHEC RMA Systems Management Classes</p>
+          <p>Enable Escort Option (Suspend)</p>
+          <p>Enable PaperWIC Tender</p>
+          <p>Item Discount Reasons</p>
+          <p>JavaPos Check for enable scanner after hardware reset</p>
+          <p>JavaPos Enable Additional Logging</p>
+          <p>JavaPost Enable Power Management</p>
+          <p>Language List</p>
+          <p>Mobile Terminal Lock Screen Timer</p>
+          <p>Paper Bags</p>
+          <p>Price Override Reasons</p>
+          <p>Prompt for gift receipt after finish and pay</p>
+          <p>Scanner Scale Thread ID</p>
+          <p>Self Checkout Options</p>
+          <p>Self Checkout Theme</p>
+          <p>Shpper's Own Bags</p>
+          <p>Show Accessibility Button</p>
+          <p>Store Information</p>
+          <p>Tax Code Reasons</p>
+          <p>Tender List</p>
+          <p>Transaction Discount Reasons</p>
+          <p>Turn on Yellow Security Light when skipping security</p>
+          <p>Verify Shopper Assistant age against age restrictions</p>
+          <p>Void Reasons</p>
+        </div>
+        <div class="securityOptionList">
+          <p>% Chance for Security Check per Item (Full)</p>
+          <p>% Chance for Security Check per Item (Mini)</p>
+          <p>Adjust Security for Loyalty Customers</p>
+          <p>Allow Fractional Quantity</p>
+          <p>Allow new items with Zero weight</p>
+          <p>Alternate Configuration File or Folder for the Note Recycler</p>
+          <p>Alternate Variable Weight Tolerance</p>
+          <p>Default Security Mode</p>
+          <p>EAS Deactivator Timer</p>
+          <p>EAS Red Light Timer</p>
+          <p>Enable Debug Capture</p>
+          <p>First Not On Belt Warning Timer</p>
+          <p>Flat Item Validation Timer</p>
+          <p>Ignore rear arch break during customer clear bagging area</p>
+          <p>Loyalty Overrides</p>
+          <p>New Item Zero Weight Tolerance</p>
+          <p>Non-Zero Override Validation Timeout</p>
+          <p>Not On Belt reject timer</p>
+          <p>Processing Time for Passaround Items</p>
+          <p>Second Not On Belt Warning Timer</p>
+          <p>Third Not On Belt Warning Timer</p>
+          <p>Treat New Items As Long</p>
+          <p>Trust Levels List</p>
+          <p>Use Non-Zero Override Validation Timeout On 0 Weight Items</p>
+          <p>Use POS Weight To Validate Price/Weight Embedded Items</p>
+          <p>Variable Weight Tolerance</p>
+          <p>Weight-Required Tolerance</p>
+        </div>
+        <div class="terminalOptionList">
+          <p>Alternate Configuration File or Folder for the Note Reycler</p>
+          <p>Cash Configuration Options</p>
+          <p>Cash Hardware Available</p>
+          <p>Cassette A is Installed in Note Dispenser</p>
+          <p>Cassette B is Installed in Note Dispenser</p>
+          <p>Cassette C is Installed in Note Dispenser</p>
+          <p>Cassette D is Installed in Note Dispenser</p>
+          <p>Cassette E is Installed in Note Dispenser</p>
+          <p>Cassette F is Installed in Note Dispenser</p>
+          <p>Cassette G is Installed in Note Dispenser</p>
+          <p>Cassette H is Installed in Note Dispenser</p>
+          <p>Coupon Box Not Installed</p>
+          <p>Coupon Collection Method</p>
+          <p>Enable Debug Capture</p>
+          <p>Enable Java Devices on SurePOS lane</p>
+          <p>Enable Low Paper Warning</p>
+          <p>Enable Note Dispenser Hardware Low Warning</p>
+          <p>Hand scanner port</p>
+          <p>Hand-scanner model</p>
+          <p>JavaPOS Device Configuration</p>
+          <p>LED Zones for SA Help Needed</p>
+          <p>Max Scale Weight</p>
+          <p>Maximum Note Dispense Amount</p>
+          <p>Model of pinpad attached to lane</p>
+          <p>Operator ID</p>
+          <p>Printer Connection Type</p>
+          <p>Scanner/scale model</p>
+          <p>Serial Scale Comm Port</p>
+          <p>Serial Scanner/Scale Comm Port</p>
+          <p>Signature Capture Device</p>
+          <p>Use Proximity Sensory</p>
+        </div>
+        <div class="corporateOptionList">
+          <p>Abandoned transaction interval</p>
+          <p>Allow Coupon Scan Before Items</p>
+          <p>Allow Frequent Shopper</p>
+          <p>Allow printerless operation</p>
+          <p>Auto Suspend Failure Count</p>
+          <p>Cash Dispense Retries</p>
+          <p>Confirm Weight on Scanner Scale</p>
+          <p>Coupon box collection reminder interval</p>
+          <p>Coupons Allowed before finish and pay</p>
+          <p>Default Age Restricted Dialog</p>
+          <p>Disable Coin Low Warnings</p>
+          <p>Enable Cash Tracking Functions</p>
+          <p>Enable Cash Tracking Report</p>
+          <p>Enable Frequent Shopper Reminder</p>
+          <p>Force Zero Produce Scale</p>
+          <p>Frequent Shopper At End Of Order</p>
+          <p>Idle reminder interval</p>
+          <p>Idle reminder intervale outside transaction</p>
+          <p>Item Reject Tracking Options</p>
+          <p>Optional Coupon box collection timeout</p>
+          <p>Print Age Restricted Text</p>
+          <p>Print Pass-Around Text</p>
+          <p>Prompt for coupons after finish and pay</p>
+          <p>Screensaver timer</p>
+          <p>Transaction Awareness Interval</p>
+        </div>
+    </div>
+    <div class="sortList"></div>
+    <div class="sortListPrompt">
+      <p>The BOSS and Lane Configuration Tool presents the configuration options unsorted, but provides the ability to sort the configuration options alphabetically.</p>
+    </div>
+    <div class="optionSets"></div>
+    <div class="optionViewDescriptionContainer">
+      <div class="deviceManagerDescription">
+        <p>This option set primarily contains...1</p>
+      </div>
+      <div class="miniLaneDescription">
+        <p>This option set primarily contains...2</p>
+      </div>
+      <div class="integrationDescription">
+        <p>This option set primarily contains...3</p>
+      </div>
+      <div class="testingDescription">
+        <p>This option set primarily contains...4</p>
+      </div>
+      <div class="storeDescription">
+        <p>This option set primarily contains...5</p>
+      </div>
+      <div class="securityDescription">
+        <p>This option set primarily contains...6</p>
+      </div>
+      <div class="terminalDescription">
+        <p>This option set primarily contains...7</p>
+      </div>
+      <div class="corporateDescription">
+        <p>This option set primarily contains...8</p>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+main {
+  height: 520px;
+  width: 1000px;
+  background-image: url(images/OptionViews.png);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.tabsContainer {
+  height: 100px;
+  width: 400px;
+  background-color: blue;
+  position: relative;
+  top: 34px;
+  left: 14px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.tab {
+  height: 23px;
+  background-color: #A0A0A5;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid #5F5F5F;
+  width: 198px;
+}
+
+.deviceManager {
+  width: 217px;
+}
+
+.miniLane {
+  width: 179px; 
+}
+
+.integration {
+  width: 212px;
+}
+
+.testing {
+  width: 184px;
+}
+
+.store {
+  width: 179px;
+}
+
+.security {
+  width: 217px;
+}
+
+.terminal {
+  width: 185px;
+}
+
+.corporate {
+  width: 211px;
+}
+
+.optionListContainer {
+  position: relative;
+  height: 330px;
+  width: 398px;
+  background-color: #ffffff;
+  left: 14px;
+  top: 35px;
+  border: 1px solid black;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+p {
+  margin: 0px;
+}
+
+.deviceManagerOptionList, 
+.miniLaneOptionList, 
+.integrationOptionList, 
+.testingOptionList, 
+.storeOptionList, 
+.securityOptionList, 
+.terminalOptionList, 
+.corporateOptionList,
+.deviceManagerDescription,
+.miniLaneDescription,
+.integrationDescription,
+.testingDescription,
+.storeDescription,
+.securityDescription,
+.terminalDescription,
+.corporateDescription {
+  display: none;
+}
+
+.sortList {
+  height: 35px;
+  width: 100px;
+  position: relative;
+  top: 38px;
+  left: 14px;
+  background-image: url(images/UnsortList.png);
+}
+
+.sortListPrompt {
+  height: 57px;
+  width: 400px;
+  position: absolute;
+  top: 450px;
+  left: 117px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  display: none;
+}
+
+.optionSets {
+  height: 247px;
+  width: 565px;
+  position: relative;
+  top: -433px;
+  left: 420px;
+  background-image: none;
+  background-size: cover;
+}
+
+.optionViewDescriptionContainer {
+  height: 179px;
+  width: 565px;
+  position: relative;
+  top: -426px;
+  left: 420px;
+}
