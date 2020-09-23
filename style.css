@@ -1,11 +1,12 @@
-html, body, main {
-  height: 520px;
-  width: 1000px;
-  font-family: Arial, Helvetica, sans-serif
-}
+html, body {
+  width: 100vw;
 
 main {
+  height: 520px;
+  width: 1000px;
   background-image: url(images/OptionViews.png);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 
 .tabsContainer {
