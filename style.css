@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 main {
   height: 520px;
   width: 1000px;
