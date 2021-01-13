@@ -7,9 +7,9 @@ const selectors = {
 const tabs = ["deviceManager","miniLane","integration","testing","store","security","terminal","corporate"];
 
 selectors.body.addEventListener("click", function(event) {
-  const classname = event.explicitOriginalTarget.className;
-  const classname2= event.explicitOriginalTarget.classList[1]
-  
+  const classname = event.target.className;
+  const classname2= event.target.classList[1];
+
   if (classname === "sortList") {
     showListPrompt(classname);
     return;
